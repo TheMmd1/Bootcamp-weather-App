@@ -1,0 +1,356 @@
+.vazirmatn {
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: normal; */
+  font-style: normal;
+}
+
+.header {
+    width: 1440px;
+    height: 36px;
+    padding: 32px 56px 32px 56px;
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .search {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .search p {
+    font-family: Vazirmatn;
+    font-size: var(--sds-typography-body-size-medium);
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #B3B3B3;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.header .search img {
+    width: 32px;
+    height: 32px;
+}
+
+.main {
+    width: 488px;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: auto;
+}
+
+.main-img {
+    width: 200px;
+    height: 200px;
+}
+
+.main h1 {
+    font-family: Vazirmatn;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.cc {
+    position: absolute;
+    top: 313px;
+    left: 836px;
+    width: 14px;
+    height: 14px;
+}
+
+.main-info {
+    font-family: Vazirmatn;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #B3B3B3;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 488px;
+    height: 98px;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid #EFEFEF;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.detail h4 {
+    font-family: Vazirmatn;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.detail p {
+    font-family: Vazirmatn;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.future {
+    width: 535px;
+    height: 156px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.future-header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.future-header h3 {
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.future-cards {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+
+.card {
+    width: 88px;
+    height: 128px;
+    padding: 12px 8px 12px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 6px;
+    border: 0.8px solid #EFEFEF;
+}
+
+.card img {
+    width: 48px;
+    height: 48px;
+}
+
+.card h3 {
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+.card p {
+    font-family: Vazirmatn;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #051320;
+}
+
+@media only screen and (max-width : 768px) {
+    .header {
+    width:  93%;
+    height:  56px;
+    padding: 16px 24px 16px 24px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .search p {
+        font-family: Vazirmatn;
+        font-size: var(--sds-typography-body-size-medium);
+        font-weight: 400;
+        line-height: 16px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .main {
+        width: 343px;
+        height: 513px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .main-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .main h1 {
+        font-family: Vazirmatn;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .main .cc {
+        width: 7px;
+        height: 7px;
+        left: 54%;
+        top: 260px;
+    }
+    .main-info {
+        font-family: Vazirmatn;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .details {
+        width: 343px;
+        height: 96px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 12px;
+        border: 1px solid #EFEFEF ;
+    }
+
+    .detail {
+        height: 14px;
+    }
+
+    .detail h4 {
+        font-family: Vazirmatn;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .detail p {
+        font-family: Vazirmatn;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .future {
+        width: 343px;
+        height: 114px;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .future-header h3 {
+        font-family: Vazirmatn;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .future-cards {
+        width:  343px;
+        height: 88px;
+        display: flex;
+        gap: 12px;
+    }
+
+    .card {
+        width: 59px;
+        height: 88px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 6px;
+    }
+
+    .card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .card h3 {
+        font-family: Vazirmatn;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .card p {
+        font-family: Vazirmatn;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
